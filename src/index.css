@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.link {
+  margin: 12px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin: 8px 0;
+}
+
+.todo-check {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.todo-check.todo-done {
+  border-color: #999;
+  background-color: #999;
+}
+
+.todo-content {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.todo-button {
+  margin-left: 8px;
+}
+
+.todo-content.todo-done {
+  color: #999;
+  text-decoration: line-through;
+}
